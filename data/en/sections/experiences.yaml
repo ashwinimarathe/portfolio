@@ -11,54 +11,63 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: Capital Group
+    url: "https://www.capitalgroup.com/"
+    location: Los Angeles, California
+    overview: Capital Group is an American financial services company
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Data Science and Advanced Analytics Summer Associate
+    start: Jun 2020
+    end: August 2020
+    responsibilities:
+    - Implemented a hybrid news recommender for financial advisors in Python based on their implicit interests and article features
+    - Enhanced the model to alleviate cold start problem prevalent for high frequency news articles platform
+    - Suggested data driven process improvements for the institutional client services team to optimize client engagement
+
+- company:
+    name: Duke University
+    url: "https://duke.edu/"
+    location: Durham, North Carolina
+    
+  positions:
+  - designation: Graduate Research Assistant
+    start: Jan 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Impute, analyze and do causal indeference on survey data collected from PhD students graduating from Duke 
+    - Report analysis and statistical inference to the team
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Graduate Research Assistant
+    start: Aug 2020
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Analyzing Native American dislocation using census information and Legislative district reference maps in GIS and Python
 
-- company:
-    name: PreExample Co.
-    url: "https://www.preexample.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Teaching Assistant
+    start: Aug 2020
+    end: Oct 2020
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Teaching assistnat for Data Infrastrucuture course under Fuqua Business School
+    - Solved doubts and corrected homeworks and quizzes for a class of 160
+    
+  - designation: Software Intern for Clinical Research Project
+    start: Sep 2019
+    end: Dec 2020
+    responsibilities:
+    - Create and maintain user-friendly Computerized adaptive tests (CAT) on Concerto platform for pain measurement and management
+    - Design test automation scripts to enable a faster develop-test cycle
+    - Create data dictionaries from the test configuration files to be used by statisticians and clinicians using Python scripts
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.intern.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Conduent Labs
+    url: "https://www.conduent.com/innovation/conduent-labs/"
+    location: Bengaluru, India
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Research Engineer
+    start: Jul 2017
+    end: Jun 2019
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Enhanced an algorithm to predict temporal and spatial dependence of parking space occupancy using statistical methods, based on sparse data collected by enforcement officers and payment data from parking meters
+    - Architected & built a blockchain-based proof-of-concept in the supply chain domain by identifying the pain points of the source-to-pay process flow using Ethereum platform with NodeJS backend and MySql database
+    - Developed visualization backend using NodeJS and MongoDB to facilitate stakeholder specific view of the network

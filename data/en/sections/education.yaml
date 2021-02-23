@@ -10,80 +10,60 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: MS in Data Science
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2019-2021
   institution:
-    name: University of XYZ
-    url: "#"
+    name: Duke University
+    url: "https://duke.edu/"
   grade: #(optional)
     scale: CGPA
-    achieved: 3.5
+    achieved: 3.72
     outOf: 4
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
+    showGrades: false
     courses:
-    - name: Data Structures and Algorithm
+    - name: Causal Inference
+    - name: Deep Learning
+    - name: Natural Language Processing
+    - name: High Dimensional Analysis
+    - name: Machine Learning
       achieved: 3.75
       outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
+    - name: Data Analysis at Scale in Cloud
+    - name: Data Visualization
+    - name: Data Science Ethics 
+ 
+- name: M.Tech in Communication and Signal Processing
+  icon: fa-graduation-cap
+  timeframe: 2015-2017
+  institution:
+    name: Indian Institute of Technology, Bombay
+    url: "https://www.iitb.ac.in/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 4
+    outOf: 4
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
-  institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
+  - title: Opportunistic scheduling in two-way wireless communication with energy harvesting
+    url: "https://ieeexplore.ieee.org/document/7959897"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    courses:
+    - name: Signal Processing
+    - name: Linear Algebra
+    - name: Information theory
+    - name: Embedded systems
+  
+- name: B.Tech in Electronics and Communication
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 2011-2015
   institution:
-    name: JK School of Science
+    name: Visvesvaraya National Institute of Technology
+    url: "https://vnit.ac.in/"
   grade: #(optional)
     scale: GPA
-    achieved: 4.5
-    outOf: 5
+    achieved: 4
+    outOf: 4
