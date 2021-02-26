@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Achievements
+  name:
   id: achievements
   enable: true
   weight: 7
@@ -9,11 +9,4 @@ section:
   # hideTitle: true
 
 # Your achievements 
-achievements:
-- title: Best Thesis Award
-  image: /images/sections/achievements/presenter.jpg
-  summary: Awarded best Thesis in Electrical Engineering Department at Indian Institute of Technology Bombay.
 
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Master of Technology (M.Tech) in Electrical Engineering from Indian Institute of Technology Bombay.

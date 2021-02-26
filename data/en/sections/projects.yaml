@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Side-Projects
+  name: 
   id: projects
   enable: true
   weight: 6
@@ -22,6 +22,25 @@ buttons:
 # your projects
 projects:
 
+- name: Image captioning
+  logo: /images/sections/projects/ml.jpg
+  role: Contributor
+  timeline: "March 2020 - April 2020"
+  repo: https://github.com/akshaypunwatkar/Image-captioning-on-flickerdata # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Developed a web-app which takes an image as input and generates a caption. The app uses a CNN encoder & RNN decoder to train the model for caption prediction. 
+  tags: ["academic", "machine-learning", "tensorflow"]
+  
+- name: Real time twitter sentiment analysis with AWS
+  logo: /images/sections/projects/cloud.png
+  role: Developer
+  timeline: "Feb 2020- Apr 2020"
+  repo: https://github.com/ashwinimarathe/serverless-data-engineering
+  #url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
+  summary: Serverless data engineering pipeline to download tweets from users and analyze the tweet sentiment using AWS comprehend API.
+  tags: ["academic", "machine-learning", "AWS"]
+
+
 - name: News recommendor system
   logo: /images/sections/projects/news.png
   role: Data Scientist at Capital Group
@@ -40,24 +59,6 @@ projects:
   summary: Analyzing data collected by Duke Graduate school from research scholars to help improve department engagement.
   tags: ["professional"]
 
-- name: Image captioning
-  logo: /images/sections/projects/ml.jpg
-  role: Contributor
-  timeline: "March 2020 - April 2020"
-  repo: https://github.com/akshaypunwatkar/Image-captioning-on-flickerdata # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Developed a web-app which takes an image as input and generates a caption. The app uses a CNN encoder & RNN decoder to train the model for caption prediction. 
-  tags: ["academic", "machine-learning", "tensorflow"]
-
-- name: Spotify Song Popularity Prediction
-  logo: /images/sections/projects/spotify.jpg
-  role: Developer
-  timeline: "Nov 2019 - Dec 2019"
-  repo: https://github.com/ashwinimarathe/Spotify-Song-Popularity-Prediction
-  url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
-  summary: This project aims to understand the features that hit songs have in common using data downloaded from Spotify API
-  tags: ["academic", "machine-learning","spotify"]
-  
 - name: Toxic comment classification
   logo: /images/sections/projects/ml.jpg
   role: Developer
@@ -76,14 +77,6 @@ projects:
   summary: This project aimed at identifying images with solar photovoltaics in images captured from satellites.
   tags: ["academic", "machine-learning"]
   
-- name: Real time twitter sentiment analysis with AWS
-  logo: /images/sections/projects/cloud.png
-  role: Developer
-  timeline: "Feb 2020- Apr 2020"
-  repo: https://github.com/ashwinimarathe/serverless-data-engineering
-  #url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
-  summary: Serverless data engineering pipeline to download tweets from users and analyze the tweet sentiment using AWS comprehend API.
-  tags: ["academic", "machine-learning", "AWS"]
     
 - name: Flask app to visualize stock data
   logo: /images/sections/projects/flask_icon.png
@@ -92,6 +85,16 @@ projects:
   repo: https://github.com/ashwinimarathe/docker_flask_app
   summary: The app eteches stock data from Yahoo Finance API for the given company, plot the opening and closing prices for the company's stocks over the last three months.
   tags: ["academic", "machine-learning", "AWS"]
+  
+- name: Spotify Song Popularity Prediction
+  logo: /images/sections/projects/spotify.jpg
+  role: Developer
+  timeline: "Nov 2019 - Dec 2019"
+  repo: https://github.com/ashwinimarathe/Spotify-Song-Popularity-Prediction
+  url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
+  summary: This project aims to understand the features that hit songs have in common using data downloaded from Spotify API
+  tags: ["academic", "machine-learning","spotify"]
+  
 
 - name: Opportunistic scheduling in two-way wireless communication with energy harvesting
   role: Contributor
