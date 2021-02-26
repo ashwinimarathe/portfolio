@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Science student
+designation: M.S. (Data Science) student
 # your company information
 company:
   name: Duke University
@@ -40,7 +40,7 @@ socialLinks:
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
 - name: Problem Solving
-  percentage: 85
+  percentage: 95
   color: orange
 - name: Leadership
   percentage: 85
@@ -52,7 +52,7 @@ softSkills:
   percentage: 85
   color: pink
 - name: Hard Working
-  percentage: 85
+  percentage: 95
   color: green
 - name: Fast Learner
   percentage: 85

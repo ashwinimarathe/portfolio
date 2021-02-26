@@ -21,44 +21,90 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+
+- name: News recommendor system
+  logo: /images/sections/projects/news.png
+  role: Data Scientist at Capital Group
+  timeline: "Jun 2020 - Aug 2020"
+  #repo: https://github.com/akshaypunwatkar/Image-captioning-on-flickerdata # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: Developed a recommendation model that uses user and news metadata and recommends top 5 articles leading to 50% higher click rate
+  tags: ["professional", "machine-learning", "tensorflow"]
+  
+- name: Survey Data Analysis
+  logo: /images/sections/projects/survey.jpg
+  role: Data Analyst
+  timeline: "Jan 2021 - Present"
+  #repo: https://github.com/akshaypunwatkar/Image-captioning-on-flickerdata # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Analyzing data collected by Duke Graduate school from research scholars to help improve department engagement.
+  tags: ["professional"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: Image captioning
+  logo: /images/sections/projects/ml.jpg
+  role: Contributor
+  timeline: "March 2020 - April 2020"
+  repo: https://github.com/akshaypunwatkar/Image-captioning-on-flickerdata # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Developed a web-app which takes an image as input and generates a caption. The app uses a CNN encoder & RNN decoder to train the model for caption prediction. 
+  tags: ["academic", "machine-learning", "tensorflow"]
+
+- name: Spotify Song Popularity Prediction
+  logo: /images/sections/projects/spotify.jpg
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning","academic"]
+  timeline: "Nov 2019 - Dec 2019"
+  repo: https://github.com/ashwinimarathe/Spotify-Song-Popularity-Prediction
+  url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
+  summary: This project aims to understand the features that hit songs have in common using data downloaded from Spotify API
+  tags: ["academic", "machine-learning","spotify"]
+  
+- name: Toxic comment classification
+  logo: /images/sections/projects/ml.jpg
+  role: Developer
+  timeline: "Apr 2020- May 2020"
+  repo: https://github.com/ashwinimarathe/toxic-comment-classification
+  #url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
+  summary: This project aims to detect different types of of toxicity like threats, obscenity, insults, and identity-based hate on online platforms using Naive-Bayes- SVM and LSTM based model.
+  tags: ["hobby", "machine-learning"]
+  
+- name: Detection of solar PV in aerial imagery
+  logo: /images/sections/projects/ml.jpg
+  role: Developer
+  timeline: "Feb 2020- Apr 2020"
+  repo: https://github.com/MIDS-at-Duke/IDS705_kaggle
+  #url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
+  summary: This project aimed at identifying images with solar photovoltaics in images captured from satellites.
+  tags: ["academic", "machine-learning"]
+  
+- name: Real time twitter sentiment analysis with AWS
+  logo: /images/sections/projects/cloud.png
+  role: Developer
+  timeline: "Feb 2020- Apr 2020"
+  repo: https://github.com/ashwinimarathe/serverless-data-engineering
+  #url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
+  summary: Serverless data engineering pipeline to download tweets from users and analyze the tweet sentiment using AWS comprehend API.
+  tags: ["academic", "machine-learning", "AWS"]
+    
+- name: Flask app to visualize stock data
+  logo: /images/sections/projects/flask_icon.png
+  role: Developer
+  timeline: "Mar 2020- Apr 2020"
+  repo: https://github.com/ashwinimarathe/docker_flask_app
+  summary: The app eteches stock data from Yahoo Finance API for the given company, plot the opening and closing prices for the company's stocks over the last three months.
+  tags: ["academic", "machine-learning", "AWS"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: Opportunistic scheduling in two-way wireless communication with energy harvesting
+  role: Contributor
+  timeline: "Jul 2016 - Jul 2017"
+  url: "https://ieeexplore.ieee.org/document/7959897"
+  summary: In this paper a two-way half-duplex communication model is considered and problem of minimizing the sum of the time required to send the required bits in both the directions is solved.
+  tags: ["academic"]
+  
+- name: DInEMMo - Decentralized Incentivization for Enterprise Marketplace Models 
+  role: Contributor
+  timeline: "Aug 2018 - Oct 2018"
+  url: "https://ieeexplore.ieee.org/document/8634320"
+  summary: In this paper, we present DInEMMo, a solution that is built on the convergence of decentralized AI and Blockchain. DInEMMo is enabled with configurable smart contracts with added features
+  tags: ["academic"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]

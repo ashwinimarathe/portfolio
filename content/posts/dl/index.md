@@ -1,11 +1,11 @@
 ---
 title: "Deep learning Approach for Question and Answering"
-date: 08/01/2020
+date: 2020-11-10
 hero: "/themes/toha/assets/images/hero.jpg"
 description: Introduction to Sample Post
 menu:
   sidebar:
-    name: Deep learning Approach for Question and Answering
+    name: Question and Answering 
     identifier: dl
     weight: 20
 ---
