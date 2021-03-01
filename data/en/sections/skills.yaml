@@ -23,7 +23,7 @@ skills:
 
 - name: Cloud Computing
   logo: "/images/sections/skills/cloud.png"
-  summary: "Completed the Udacity Machine Learning Engineer Nanodegree. Completed two projects as a part of the course using AWS's pre-built on sagemaker"
+  summary: "Completed the Udacity Machine Learning Engineer Nanodegree. Completed two projects as a part of the course using AWS's pre-built models on sagemaker"
   url: "https://aws.amazon.com/sagemaker/"
   
 - name: SQL
@@ -37,7 +37,7 @@ skills:
 
 - name: Deep Learning
   logo: "/images/sections/skills/dl.png"
-  summary: "In depth understanding of functioning of neural networks and capable of developing deep networks in Tensorflow and PyTorch."
+  summary: "In depth understanding of neural networks functioning and capable of developing deep networks in Tensorflow and PyTorch."
   url: "https://pytorch.org/"
 
 - name: Natural Language Processing
@@ -46,7 +46,7 @@ skills:
 
 - name: Git
   logo: "/images/sections/skills/git.png"
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development. Mostly, used Github. Also, have experience in working with GitLab."
   url: "https://git-scm.com/"
 
 - name: Data Storytelling

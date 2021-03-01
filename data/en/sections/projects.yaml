@@ -28,7 +28,7 @@ projects:
   timeline: "March 2020 - April 2020"
   repo: https://github.com/akshaypunwatkar/Image-captioning-on-flickerdata # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Developed a web-app which takes an image as input and generates a caption. The app uses a CNN encoder & RNN decoder to train the model for caption prediction. 
+  summary: Developed a web-app which takes an image as input and generates a caption. The project uses a CNN encoder & RNN decoder to train the model for caption prediction. 
   tags: ["academic", "machine-learning", "tensorflow"]
   
 - name: Real time twitter sentiment analysis with AWS
@@ -37,7 +37,7 @@ projects:
   timeline: "Feb 2020- Apr 2020"
   repo: https://github.com/ashwinimarathe/serverless-data-engineering
   #url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
-  summary: Serverless data engineering pipeline to download tweets from users and analyze the tweet sentiment using AWS comprehend API.
+  summary: Developed a serverless data engineering pipeline to download tweets from users and analyze the tweet sentiment using AWS comprehend API.
   tags: ["academic", "machine-learning", "AWS"]
 
 
@@ -65,7 +65,7 @@ projects:
   timeline: "Apr 2020- May 2020"
   repo: https://github.com/ashwinimarathe/toxic-comment-classification
   #url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
-  summary: This project aims to detect different types of of toxicity like threats, obscenity, insults, and identity-based hate on online platforms using Naive-Bayes- SVM and LSTM based model.
+  summary: This project aimed to detect different types of of toxicity like threats, obscenity, insults, and identity-based hate on online platforms using Naive-Bayes- SVM and LSTM based model.
   tags: ["hobby", "machine-learning"]
   
 - name: Detection of solar PV in aerial imagery
@@ -83,7 +83,7 @@ projects:
   role: Developer
   timeline: "Mar 2020- Apr 2020"
   repo: https://github.com/ashwinimarathe/docker_flask_app
-  summary: The app eteches stock data from Yahoo Finance API for the given company, plot the opening and closing prices for the company's stocks over the last three months.
+  summary: Developed an app to fetch stock data from Yahoo Finance API for the given company, plot the opening and closing prices for the company's stocks over the last three months.
   tags: ["academic", "machine-learning", "AWS"]
   
 - name: Spotify Song Popularity Prediction
@@ -92,7 +92,7 @@ projects:
   timeline: "Nov 2019 - Dec 2019"
   repo: https://github.com/ashwinimarathe/Spotify-Song-Popularity-Prediction
   url: "https://ashwinimarathe.shinyapps.io/musicvisualization/"
-  summary: This project aims to understand the features that hit songs have in common using data downloaded from Spotify API
+  summary: The project aimed to understand the features that hit songs have in common using data downloaded from Spotify API.
   tags: ["academic", "machine-learning","spotify"]
   
 
@@ -107,7 +107,7 @@ projects:
   role: Contributor
   timeline: "Aug 2018 - Oct 2018"
   url: "https://ieeexplore.ieee.org/document/8634320"
-  summary: In this paper, we present DInEMMo, a solution that is built on the convergence of decentralized AI and Blockchain. DInEMMo is enabled with configurable smart contracts with added features
+  summary: In this paper, we presented DInEMMo, a solution that is built on the convergence of decentralized AI and Blockchain. DInEMMo is enabled with configurable smart contracts with added features.
   tags: ["academic"]
 
 

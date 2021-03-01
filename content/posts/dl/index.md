@@ -26,11 +26,11 @@ The models are built with the intention that they perform well on the test data.
 
 ## Model architectures
 
-n this project, we are building models to develop the Question Answering framework.1We arebuilding and evaluating several models for this purpose:  (i) N-gram classifier (ii) LSTM (LongShort-term Memory) [9] (iii) End-to-end Memory networks [5] (iv) Seq2Seq (sequence-to-sequence)model [6] (v) LSTM + attention
+In this project, we are building models to develop the Question Answering framework.1We arebuilding and evaluating several models for this purpose:  (i) N-gram classifier (ii) LSTM (LongShort-term Memory) (iii) End-to-end Memory networks (iv) Seq2Seq (sequence-to-sequence)model (v) LSTM + attention
 
 ### N-Gram Classifier
 
-An N-gram model constructs a sequence of N words that occur in a sequential combination in thegiven text. We used a N-gram model to define the baseline. This model was inspired by the workdone by Richardson et al.[10].We trained the N-gram model using both unigrams (1-gram) and bigrams (2-gram) individuallyto produce answers for the different tasks.  For this, we selected only those sentences that had atleast one common word with the story.  We then constructed a bag-of-unigrams and a bigramsrespectively from the stories. This was then fed into a Linear Support Vector Classification (SVC)model. We constructed two separate models using unigrams and bigrams respectively and selectedthe better-performing model.The linear classifier was used to predict the answers using the features extracted from the vocabularyof the stories. Since the model uses only the vocabulary as the features, it is predicted to performsub-optimally in tasks that rely on reasoning beyond language.
+An N-gram model constructs a sequence of N words that occur in a sequential combination in thegiven text. We used a N-gram model to define the baseline. This model was inspired by the workdone by Richardson et al. We trained the N-gram model using both unigrams (1-gram) and bigrams (2-gram) individuallyto produce answers for the different tasks.  For this, we selected only those sentences that had atleast one common word with the story.  We then constructed a bag-of-unigrams and a bigramsrespectively from the stories. This was then fed into a Linear Support Vector Classification (SVC) model. We constructed two separate models using unigrams and bigrams respectively and selectedthe better-performing model.The linear classifier was used to predict the answers using the features extracted from the vocabularyof the stories. Since the model uses only the vocabulary as the features, it is predicted to performsub-optimally in tasks that rely on reasoning beyond language.
 
 ### LSTM
 
@@ -45,7 +45,7 @@ To capture the semantic structure of the stories and the question, we experiment
 To improve the performance of our models, we implemented a sequence-to-sequence model. The benefit of this framework over the other models is that it does not treat the answers as single-words and can thus incorporate comma-separated lists as answers, especially for tasks 8 (Lists/Sets) and 19 (Path Finding). 
 Figure below illustrates how a sequence-to-sequence network can be trained on a question answering task. The basic architecture of a seq-2-seq includes an RNN encoder (LSTM cell) that processes the stories (all concatenated together), followed by a special question-start symbol (SOQ), and then the question. The special SOS symbol tells the network to start decoding, with the decoder’s initial state being the final state of the encoder. The decoder produces an answer sequence, followed by the special stop symbol EOS that indicates that processing must end. The network is trained using cross-entropy error on the decoder output, as compared with the correct answer sequence.
 
-During training, the decoder also receives the correct answer as input following the SOS symbol. During validation and testing, the correct answer is not provided: we only provide the SOS symbol. At subsequent steps, the output of time step t is fed to the decoder as the input at time step t + 1. The model architecture is shown in figure below.
+During training, the decoder also receives the correct answer as input following the SOS symbol. During validation and testing, the correct answer is not provided: we only provide the SOS symbol. At subsequent steps, the output of time step (t) is fed to the decoder as the input at time step (t + 1). The model architecture is shown in figure below.
 
 ![](seq2seq.png)
 

@@ -21,8 +21,8 @@ experiences:
     end: August 2020
     responsibilities:
     - Implemented a hybrid news recommender for financial advisors in Python based on their implicit interests and article features
-    - Enhanced the model to alleviate cold start problem prevalent for high frequency news articles platform
-    - Suggested data driven process improvements for the institutional client services team to optimize client engagement
+    - Enhanced the model to alleviate cold start problem prevalent for high-frequency news articles platform
+    - Suggested data-driven process improvements for the institutional client services team to optimize client engagement
 
 - company:
     name: Duke University
@@ -37,7 +37,7 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Impute, analyze and do causal inference on survey data collected from PhD students graduating from Duke 
-    - Report analysis and statistical inference to the team
+    - Report analysis and statistical inference to the team and help with data-driven decision making
 
   - designation: Graduate Research Assistant
     start: Aug 2020
@@ -48,16 +48,16 @@ experiences:
     start: Aug 2020
     end: Oct 2020
     responsibilities:
-    - Teaching assistnat for Data Infrastrucuture course under Fuqua Business School
-    - Solved doubts and corrected homeworks and quizzes for a class of 160
+    - Teaching Assistant for Data Infrastrucuture course under Fuqua Business School
+    - Solved doubts and corrected homeworks and quizzes for a class of 160 students
     
   - designation: Software Intern for Clinical Research Project
     start: Sep 2019
     end: Dec 2020
     responsibilities:
-    - Create and maintain user-friendly Computerized adaptive tests (CAT) on Concerto platform for pain measurement and management
-    - Design test automation scripts to enable a faster develop-test cycle
-    - Create data dictionaries from the test configuration files to be used by statisticians and clinicians using Python scripts
+    - Created and maintained user-friendly Computerized adaptive tests (CAT) on Concerto platform for pain measurement and management
+    - Designed test automation scripts to enable a faster develop-test cycle
+    - Created data dictionaries from the test configuration files to be used by statisticians and clinicians using Python scripts
 
 - company:
     name: Conduent Labs

@@ -27,7 +27,7 @@ degrees:
     - name: Causal Inference
     - name: Deep Learning
     - name: Natural Language Processing
-    - name: High Dimensional Analysis
+    - name: High Dimensional Data Analysis
     - name: Machine Learning
       achieved: 3.75
       outOf: 4
